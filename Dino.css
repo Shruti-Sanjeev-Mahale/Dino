@@ -1,0 +1,77 @@
+		*
+		{
+			padding: 0px;
+			margin: 0px;
+		}
+
+		.game-cont
+		{
+
+			height: 200px;
+			width: 500px;
+			border: 2px solid black;
+			background-image: url("https://i.pinimg.com/originals/27/2e/2a/272e2a7244193d8ec9562772e2f1a0af.gif");
+			background-size: 30%;
+			background-repeat: repeat-x;
+		}
+
+		.dino
+		{
+			height:50px;
+			width: 20px;
+			position: relative;
+			top: 150px;
+			background-image: url("https://static.vecteezy.com/system/resources/previews/023/529/365/original/cute-dinosaur-with-flower-watercolor-ai-generated-png.png");
+			background-position: center;
+			background-size: 270%;
+
+		}
+
+		.jump
+		{
+			animation: jump 0.5s ease-in-out 1;
+		}
+
+		@keyframes jump
+		{
+			50%
+			{
+				top: 100px;
+			}
+
+		}
+
+		.block
+		{
+			height: 20px;
+			width: 20px;
+			background-image: url("https://cdn.dribbble.com/users/489856/screenshots/6329150/cactus-dance-cropped.gif ");
+			background-position: center;
+			background-size: 150%;
+			position: relative;
+			top: 130px;
+			left: 480px;
+			animation: move 4s linear infinite;
+		}
+
+		@keyframes move
+		{
+			0%
+			{
+				left: 480px;
+			}
+
+			100%
+			{
+				left: -30px;
+			}
+		}
+
+		#score
+		{
+			position: fixed;
+			top: 10px;
+			left: 20px;
+		}
+
+	
